@@ -6,7 +6,7 @@ import { Articles } from '../molecules/Articles'
 
 export const Home = () => {
 	return (
-		<Grid container direction="column" paddingY={10} gap={5} paddingX={10} maxWidth={1000} marginRight="auto" marginLeft="auto">
+		<Grid container direction="column" paddingY={10} gap={5} paddingX={2} maxWidth={1000} marginRight="auto" marginLeft="auto">
 			<Profile />
 			<div>
 				<Typography fontSize={25} textAlign={'left'}>
@@ -29,7 +29,7 @@ export const Home = () => {
 			<Articles />
 			<div>
 				<Typography fontSize={25} textAlign={'left'}>
-					Certification
+					Certifications
 				</Typography>
 				<List>
 					<ListItem>AWS Certified Cloud Practitioner</ListItem>
@@ -38,7 +38,7 @@ export const Home = () => {
 			</div>
 			<div>
 				<Typography fontSize={25} textAlign={'left'}>
-					Award
+					Awards
 				</Typography>
 				<List>
 					<ListItem>European Girls' Mathematical Olympiad (EGMO) 2020 日本代表</ListItem>
