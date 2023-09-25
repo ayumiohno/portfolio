@@ -10,14 +10,32 @@ export const Home = () => {
 			<Profile />
 			<div>
 				<Typography fontSize={25} textAlign={'left'}>
+					Skills
+				</Typography>
+				<List>
+					<ListItem>Work Experience: C++, Python, TypeScript, React, AWS, GCP, Docker</ListItem>
+					<ListItem>Hobbies/Class: Rust, C, Ocaml</ListItem>
+				</List>
+			</div>
+			<div>
+				<Typography fontSize={25} textAlign={'left'}>
 					Education
 				</Typography>
 				<List>
 					<ListItem>東京大学理学部理学部情報科学科B3</ListItem>
-					<ListItem>筑波大学付属高等学校2021卒業</ListItem>
+					<ListItem>筑波大学附属高等学校2021卒業</ListItem>
 				</List>
 			</div>
 			<Experience />
+			<div>
+				<Typography fontSize={25} textAlign={'left'}>
+					Events
+				</Typography>
+				<List>
+					<ListItem>Flatt Security サマーインターン2023 (1 week), webセキュリティ診断</ListItem>
+					<ListItem>セキュリティミニキャンプ山梨2023</ListItem>
+				</List>
+			</div>
 			<div>
 				<Typography fontSize={25} textAlign={'left'}>
 					Hackathon

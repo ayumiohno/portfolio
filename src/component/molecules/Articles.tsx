@@ -7,16 +7,16 @@ export const Articles = () => {
 				Articles
 			</Typography>
 			<List>
-				<Link href="https://note.com/toshin_todai_/n/n933e7d35ebaf">
-					<ListItem>
+				<ListItem>
+					<Link href="https://note.com/toshin_todai_/n/n933e7d35ebaf">
 						進学選択体験記
-					</ListItem>
-				</Link>
-				<Link href="https://note.com/toshin_todai_/n/n2b70276aa323">
-					<ListItem>
+					</Link>
+				</ListItem>
+				<ListItem>
+					<Link href="https://note.com/toshin_todai_/n/n2b70276aa323">
 						STEPインターン体験記
-					</ListItem>
-				</Link>
+					</Link>
+				</ListItem>
 			</List>
 		</div>
 	)
